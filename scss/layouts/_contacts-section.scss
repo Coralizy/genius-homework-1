@@ -1,0 +1,69 @@
+.contacts-section {
+  padding-top: 71px;
+  padding-bottom: 94px;
+}
+.contacts-container {
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+  justify-content: center;
+}
+.contacts-map {
+  border-radius: 32px;
+}
+.contacts-section-form {
+  width: 422px;
+  height: 480px;
+  background-color: var(--color-secondary-darkblue);
+  padding: 48px 56px;
+  border-radius: 32px;
+}
+.contacts-text {
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 26px;
+  text-align: center;
+  color: #fff;
+  margin: 0 0 32px 0;
+}
+.form-terms {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: center;
+  color: var(--color-secondary-form);
+  margin: 12px 0 0 0;
+}
+.input {
+  margin-bottom: 16px;
+  position: relative;
+}
+.input__control:focus {
+  background-color: var(--color-secondary-form);
+  border: solid 2px var(--color-secondary-form);
+  color: #fff;
+  outline: none;
+  transition: 0.2s;
+}
+.input__control {
+  width: 310px;
+  height: 52px;
+  border-radius: 32px;
+  border: solid 2px var(--color-secondary-form);
+  font-size: 13px;
+  font-weight: 400;
+  background-color: var(--color-secondary-darkblue);
+  padding-left: 32px;
+}
+.input__control::placeholder {
+  color: #fff;
+}
+.contacts-section__button {
+  margin: 0 auto;
+  border: none;
+}
+.contacts-section__button:hover {
+  background-color: #fff;
+  color: #000;
+  transition: 0.2s;
+}

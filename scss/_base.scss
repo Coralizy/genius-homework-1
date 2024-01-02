@@ -1,0 +1,37 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+h2 {
+  font-family: "Play";
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 74px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.premium-blue {
+  color: var(--color-primery-blue);
+}
+p {
+  font-family: "Roboto";
+  font-weight: 400;
+}
+ul {
+  list-style-type: none;
+}
+a:hover {
+  color: var(--color-primery-blue);
+  transition: 0.2s;
+}
+.container {
+  width: 100%;
+  max-width: 1440px;
+}
+.back {
+  background-image: url(../images/background-sec.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin-top: -32px;
+}

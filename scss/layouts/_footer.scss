@@ -1,0 +1,71 @@
+.footer {
+  padding: 56px 0;
+  position: relative;
+  background-image: url(./images/pexels-photo-8101532-PhotoRoom\ 1.png);
+  background-color: var(--color-primery-dark);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+.footer-container {
+  display: flex;
+  flex-direction: row;
+  gap: 186px;
+  justify-content: center;
+}
+.footer-nav,
+.footer-address {
+  display: flex;
+  flex-direction: row;
+
+  text-align: left;
+}
+
+.footer-address-link {
+  color: #fff;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  font-style: normal;
+  transition: 0.2s;
+}
+.footer-address-list {
+  padding-left: 0;
+  margin: 0;
+}
+.footer-ico {
+  display: flex;
+  flex-direction: row;
+  width: 174px;
+  gap: 24px;
+}
+.footer-svg {
+  width: 32px;
+  height: 42px;
+  fill: #fff;
+}
+.footer-svg:hover {
+  fill: var(--color-primery-blue);
+  transition: 0.2s;
+}
+.footer-item {
+  padding-bottom: 16px;
+}
+.footer-link {
+  color: #fff;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  padding-bottom: 16px;
+}
+.footer-menu {
+  margin: 0;
+  padding-left: 0;
+}
+.footer-address-copyright {
+  font-size: 13px;
+  color: var(--color-secondary-form);
+  margin: 0;
+  padding-top: 16px;
+}
